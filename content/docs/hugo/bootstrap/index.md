@@ -52,7 +52,7 @@ module:
 `primary, secondary, success, danger, warning, info, light and dark.`
 
 Дальше в примерах буду писать без < и >. Т.к с ними выполняется код. Но в природе нужно ставить две скобки {{ и <, а когда закрываем, то соответственно > и еще }}.
-{{% bs/collapse "Alerts" primary true %}}
+{{% bs/collapse "Alerts code" primary true %}}
 ``` go-html-template
 {{ bs/alert primary }}
 A simple primary alert—check it out!
